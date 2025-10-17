@@ -7,7 +7,7 @@ import pyperclip # Biblioteca para interagir com a área de transferência
 
 # --- Configurações do Servidor ---
 HOST = '0.0.0.0'  # Escuta em todas as interfaces de rede disponíveis
-PORT = 65432      # Porta para escutar (pode ser qualquer porta > 1023)
+PORT = 65432      # Porta para escutar
 MAX_HISTORY_SIZE = 5
 
 # --- Estrutura de Dados para o Histórico ---

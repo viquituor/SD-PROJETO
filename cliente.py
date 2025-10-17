@@ -5,7 +5,7 @@ import pyperclip # Biblioteca para interagir com a área de transferência
 import time
 
 # --- Configurações do Cliente ---
-SERVER_HOST = '127.0.0.1'  # Altere para o IP do servidor se estiver em outra máquina
+SERVER_HOST = '127.0.0.1'  # Altere para o IP do servidor
 SERVER_PORT = 65432
 
 def connect_to_server():
@@ -67,5 +67,3 @@ def monitor_clipboard_and_send():
 
 if __name__ == "__main__":
     monitor_clipboard_and_send()
-
-

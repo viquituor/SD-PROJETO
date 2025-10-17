@@ -13,8 +13,6 @@ O projeto é composto por dois scripts principais:
 - `servidor.py` → Responsável por receber textos e manter o histórico.  
 - `cliente.py` → Monitora a área de transferência e envia novos textos ao servidor.  
 
-*(O arquivo `ctrl+v.py` pode representar a implementação do lado servidor.)*
-
 ---
 
 ## 🧩 Funcionalidades
@@ -103,12 +101,6 @@ Na máquina cliente:
    ```python
    SERVER_HOST = '192.168.1.10'  # IP do servidor
 
-   ```
-
-   Se estiverem na mesma máquina, mantenha:
-
-   ```python
-   SERVER_HOST = '127.0.0.1'
    ```
 
 2. Execute o cliente:
